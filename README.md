@@ -1,2 +1,3 @@
-## THIS IS JUST A PRACTICE NOTHING TO JUDGE
-### Day two of practice
+## Hacker-Rank Solutions
+### <img alt="2" height="250" src="C:\Users\cante\marker_DICT_7X7_250_600_1.png" width="250"/>
+HackerRank is a technology hiring platform that is the standard for assessing developer skills for over 2,800+ companies around the world. By enabling tech recruiters and hiring managers to objectively evaluate talent at every stage of the recruiting process, HackerRank helps companies hire skilled developers and innovate faster!
