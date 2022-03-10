@@ -2,12 +2,12 @@
 You have a non-empty set s, and you have to execute N commands given N in lines.
 The commands will be pop, remove and discard.
 """
-n = int(input('give your number: '))
-s = set(filter(lambda x: x <= 9, list(map(int, input('Type yur numbers: ').split()))[:n]))
+n = int(input())
+s = set(filter(lambda x: x <= 9, list(map(int, input().split()))[:n]))
 print(s)
-N = int(input('How many times you want to run commands: '))
+N = int(input())
 for i in range(N):
-    com = input('Type your command {space} with a number: ').split()
+    com = input().split()
     if com[0] == 'pop':
         if len(s) != 0:
             s.pop()

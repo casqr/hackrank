@@ -10,11 +10,11 @@
 
  Note: Since A and B are sets, they have no repeated elements. However, the array might contain duplicate elements.
 """
-n, m = list(map(int, input('give your m and n: ').split()))
-n_int = list(map(int, input('give your n: ').split()))
+n, m = list(map(int, input().split()))
+n_int = list(map(int, input().split()))
 n_num = n_int[:n]
-a_num = list(map(int, input('give your set A: ').split()))
-b_num = list(map(int, input('give your set B: ').split()))
+a_num = list(map(int, input().split()))
+b_num = list(map(int, input().split()))
 A = set(a_num[:m])
 B = set(b_num[:m])
 total_hap = 0
