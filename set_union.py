@@ -11,4 +11,4 @@ Eng = set(list(map(int, input().split()))[:n])
 # For French Students
 b = int(input())
 Fren = set(list(map(int, input().split()))[:b])
-print(len(Eng.union(Fren)))
+print(len(Eng.intersection(Fren)))
