@@ -24,11 +24,11 @@ K = int(input())
 Num = list(map(int, input().split()))
 
 n_um = {}
-for i in Num:
-    if i in n_um:
-        n_um[i]+=1
+for l in Num:
+    if l in n_um:
+        n_um[l]+=1
     else:
-        n_um[i] = 1
+        n_um[l] = 1
     
 for x, y in n_um.items():
     if y != K:

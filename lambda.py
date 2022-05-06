@@ -9,7 +9,7 @@ cube = lambda x: x ** 3  # complete the lambda function
 def fibonacci(n):
     fib_num = []
     for i in range(n):
-        # fib_num.append(fib_num[i] + fib_num[i + 1])
+        # fib_num.append(fib_num[l] + fib_num[l + 1])
         if len(fib_num) <= 1:
             fib_num.append(i)
         else:
